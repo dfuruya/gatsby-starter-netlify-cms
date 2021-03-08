@@ -1,16 +1,14 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Meet your new Diabetes Speclialist.
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: About Dr. Derchung Shen
+subheading: Dr. Derchung Shen
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Practicing and educating patients on diabetes care, since 1980.
+  description: |
+    Based in Taipei, Taiwan, Dr. Shen specializes in all diabetes-related matters - everything from Type I, II to Gestational Diabetes.
+    Whether you’re feeling more fatigue, losing weight unintentionally, or worried about your pregnancy, we will not only provide accurate diagnosis, but we’ll also help you improve your condition and get you on your way towards a healthier lifestyle. We bring extensive experience and professionalism to every case and customize our care to your individual needs and concerns.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
