@@ -6,7 +6,8 @@ import Features from '../../components/Features'
 import BlogRoll from '../../components/BlogRoll'
 
 function parseParagraphs(paragraph) {
-    return paragraph.split('\n').map(line => <p>{line}</p>)
+    const key = Date.now();
+    return paragraph.split('\n').map((line, i) => <p key={key + i}>{line}</p>)
 }
 
 const IndexMainPitch = ({

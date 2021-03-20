@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: About Dr. Derchung Shen
 subheading: Dr. Derchung Shen
 mainpitch:
-  title: Practicing and educating patients on diabetes care, since 1980.
+  title: Practicing and educating patients on diabetes care, since 1980. 他們所有的設備和儀器彷彿都是有生命的。
   description: |
     Based in Taipei, Taiwan, Dr. Shen specializes in all diabetes-related matters - everything from Type I, II to Gestational Diabetes.
     Whether you’re feeling more fatigue, losing weight unintentionally, or worried about your pregnancy, we will not only provide accurate diagnosis, but we’ll also help you improve your condition and get you on your way towards a healthier lifestyle. We bring extensive experience and professionalism to every case and customize our care to your individual needs and concerns.
