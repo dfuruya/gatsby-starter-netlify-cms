@@ -3,8 +3,8 @@ import Typography from "typography";
 const opts = {
     baseFontSize: "18px",
     baseLineHeight: 1.45,
-    headerFontFamily: ["Playfair Display", "serif"],
-    bodyFontFamily: ["Roboto", "sans-serif"],
+    headerFontFamily: ["Noto Serif TC", "serif"],
+    bodyFontFamily: ["Noto Sans TC", "sans-serif"],
 };
 
 const typography = new Typography(opts);

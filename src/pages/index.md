@@ -3,7 +3,7 @@ templateKey: index-page
 title: Meet your new Diabetes Speclialist.
 image: /img/home-jumbotron.jpg
 heading: About Dr. Derchung Shen
-subheading: Dr. Derchung Shen
+subheading: Dr. Derchung Shen, M.D.
 mainpitch:
   title: Practicing and educating patients on diabetes care, since 1980. 他們所有的設備和儀器彷彿都是有生命的。
   description: |

@@ -30,9 +30,9 @@ class Navbar extends React.Component {
             >
                 <div className="container">
                     <div className="navbar-brand">
-                        <Link to="/" className="navbar-item" title="Logo">
+                        {/* <Link to="/" className="navbar-item" title="Logo">
                             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-                        </Link>
+                        </Link> */}
                         {/* Hamburger menu */}
                         <div
                             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
