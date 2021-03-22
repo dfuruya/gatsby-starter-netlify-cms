@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+// import logo from '../img/logo.svg'
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -24,11 +24,11 @@ class Navbar extends React.Component {
     render() {
         return (
             <nav
-                className="navbar is-transparent"
+                className="flex justify-center navbar is-transparent"
                 role="navigation"
                 aria-label="main-navigation"
             >
-                <div className="container">
+                <div className="flex container">
                     <div className="navbar-brand">
                         {/* <Link to="/" className="navbar-item" title="Logo">
                             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
@@ -37,6 +37,9 @@ class Navbar extends React.Component {
                         <div
                             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
                             data-target="navMenu"
+                            role="button"
+                            tabIndex="0"
+                            onKeyPress={() => this.toggleHamburger()}
                             onClick={() => this.toggleHamburger()}
                         >
                             <span />
@@ -46,9 +49,22 @@ class Navbar extends React.Component {
                     </div>
                     <div
                         id="navMenu"
-                        className={`navbar-menu ${this.state.navBarActiveClass}`}
+                        className={"flex container flex-row items-center justify-between min-h-full"}
+                        // className={`flex flex-row justify-between ${this.state.navBarActiveClass}`}
                     >
-                        <div className="navbar-start has-text-centered">
+                        <div className="navbar-end has-text-centered">
+                            <a
+                                className="navbar-item"
+                                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <span className="icon">
+                                    <img src={github} className="w-4 m-0" alt="Github" />
+                                </span>
+                            </a>
+                        </div>
+                        <div className="flex space-x-2 navbar-start has-text-centered">
                             <Link className="navbar-item" to="/about">
                                 About
                             </Link>
@@ -64,18 +80,6 @@ class Navbar extends React.Component {
                             <Link className="navbar-item" to="/contact/examples">
                                 Form Examples
                             </Link>
-                        </div>
-                        <div className="navbar-end has-text-centered">
-                            <a
-                                className="navbar-item"
-                                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <span className="icon">
-                                    <img src={github} alt="Github" />
-                                </span>
-                            </a>
                         </div>
                     </div>
                 </div>
